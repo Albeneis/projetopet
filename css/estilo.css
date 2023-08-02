@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+}
+header {
+    background-color: black;
+    height: 100px;
+}
+figure, nav, ul,li{
+    display: inline;
+}
+a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
+}
+#btn-entrar {
+    background-color: green;
+    border-radius: 5px;
+}
+#btn-entrar:hover {
+
+background-color: blue;
+transition: 0.2;
+opacity: 0.6;
+}
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 2px solid red;
+    background-color: chartreuse;
+}
+nav{
+    position: relative;
+    top: 50px;
+    left: 300px;  
+}
+img{
+    padding: 10px;
+}
